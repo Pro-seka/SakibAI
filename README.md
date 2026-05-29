@@ -21,7 +21,7 @@ Inspired by ChatGPT, Claude, NotebookLM, and Perplexity — but free, open-sourc
 
 ---
 
-## Screenshots / Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -152,13 +152,6 @@ SakibAI/
 streamlit run app.py
 ```
 
-### Streamlit Cloud (Free hosting)
-
-1. Push your repo to GitHub (make sure `.env` is in `.gitignore`)
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your repo and deploy
-4. Add API keys via Streamlit Cloud Secrets
-
 ### Docker
 
 ```dockerfile
@@ -237,52 +230,11 @@ That's it — it automatically appears in the sidebar model selector.
 
 ---
 
-## Engineering Standards
-
-- ✅ Type hints on every function
-- ✅ Docstrings on public modules and functions
-- ✅ Modular architecture — components, services, providers, database
-- ✅ Database migrations handled via `CREATE TABLE IF NOT EXISTS`
-- ✅ No hardcoded API keys — stored in DB or `.env`
-- ✅ Streaming responses with real-time token display
-- ✅ Error handling on all AI calls with user-friendly messages
-- ✅ Feature branches + meaningful commit messages (recommended)
-
----
-
-## Roadmap
-
-### v1.1
-- [ ] Web search integration (Tavily / SerpAPI)
-- [ ] Voice input (Web Speech API)
-- [ ] DOCX export
-
-### v1.2
-- [ ] Vector database (ChromaDB / Qdrant) for semantic KB search
-- [ ] Multi-PDF knowledge base with folder organization
-- [ ] Conversation branching
-
-### v2.0
-- [ ] User authentication (OAuth)
-- [ ] Multi-user support
-- [ ] Cloud sync
-- [ ] Plugin system
-
----
-
 ## License
 
 MIT — free to use, modify, and distribute.
 
 ---
-
-## Credits
-
-Built by **Sakib Hasan** as a production-grade AI workspace demonstrating:
-- Professional Python software architecture
-- Multi-provider AI integration patterns
-- Full-stack Streamlit application design
-- Local-first, privacy-respecting AI tooling
 
 ---
 
