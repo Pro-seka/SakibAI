@@ -1,15 +1,28 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
+# SakibAI .gitignore
 
 # Environment
 .env
+*.env
+
+# Database (contains your personal data)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
 venv/
 env/
-ENV/
+.venv/
+.env/
 
 # IDE
 .vscode/
@@ -17,10 +30,13 @@ ENV/
 *.swp
 *.swo
 
-# Project specific
-data/
-*.log
-sakibai.log
+# OS
+.DS_Store
+Thumbs.db
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
+
+# Uploads (user data)
+uploads/
+temp/
