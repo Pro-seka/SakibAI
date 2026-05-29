@@ -1,3 +1,18 @@
-streamlit>=1.28.0
-python-dotenv>=1.0.0
-google-generativeai>=0.3.0
+# SakibAI — Requirements
+# Core
+streamlit>=1.35.0
+
+# AI Providers
+openai>=1.30.0         # OpenAI, Groq, Together AI (OpenAI-compatible)
+requests>=2.31.0       # Ollama HTTP calls
+
+# Document parsing
+pdfplumber>=0.11.0     # PDF text extraction (preferred)
+pypdf>=4.0.0           # PDF fallback
+python-docx>=1.1.0     # DOCX support
+
+# Export
+reportlab>=4.0.0       # PDF export
+
+# Utilities
+python-dotenv>=1.0.0   # .env file support
