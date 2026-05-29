@@ -2,7 +2,7 @@
 
 > **Scalable AI Workspace** — A production-grade, multi-model AI platform built with Python and Streamlit.
 
-**By Sakib Hasan, Lead Director**
+**By Sakib Hasan
 
 ---
 
