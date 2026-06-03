@@ -2,7 +2,8 @@
 
 > **Scalable AI Workspace** — A production-grade, multi-model AI platform built with Python and Streamlit.
 
-Try: https://sakib-ai.streamlit.app/
+[Click here to explore SakibAI](https://sakib-ai.streamlit.app/)
+
 
 ---
 
