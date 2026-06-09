@@ -88,7 +88,7 @@ cp .env.example .env
 streamlit run app.py
 ```
 
-Open your browser to `http://localhost:8501` — you're good to go! ⚡
+Open your browser to `http://localhost:8501` — you're good to go!
 
 ---
 
